@@ -105,5 +105,7 @@ public class Hero {
         System.out.println(giantDragon);
         System.out.println(giantDragon2);
         System.out.println(giantDragon3);
+
+        System.out.println("second commit");
     }
 }
