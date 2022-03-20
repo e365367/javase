@@ -1,6 +1,6 @@
 package property;
 
-import Character.Hero;
+import character.Hero;
 public class Weapon extends Item{
     int damage; // 攻击力
 
@@ -49,6 +49,11 @@ public class Weapon extends Item{
                 ", price=" + price +
                 ", damage=" + damage +
                 '}';
+    }
+
+    @Override
+    public void effect() {
+        System.out.println("装备剑");
     }
 
     public static void main(String[] args) {
