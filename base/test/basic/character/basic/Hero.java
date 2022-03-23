@@ -1,4 +1,4 @@
-package character;
+package test.basic.character.basic;
 
 import property.Item;
 import property.MagicPotion;

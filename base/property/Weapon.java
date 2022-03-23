@@ -1,6 +1,6 @@
 package property;
 
-import character.Hero;
+import test.basic.character.basic.Hero;
 public class Weapon extends Item{
     int damage; // 攻击力
 

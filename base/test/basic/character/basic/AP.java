@@ -1,4 +1,4 @@
-package character;
+package test.basic.character.basic;
 
 public interface AP {
     void magicAttack();
