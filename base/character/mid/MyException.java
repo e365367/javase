@@ -1,4 +1,4 @@
-package test.basic.character.mid;
+package character.mid;
 
 public class MyException extends Exception{
     public MyException(){

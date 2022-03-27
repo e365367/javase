@@ -1,6 +1,7 @@
 package test.basic;
 
 
+import character.basic.Hero;
 import com.sun.xml.internal.fastinfoset.util.CharArray;
 
 import java.util.Arrays;
@@ -126,14 +127,14 @@ public class TestString {
         System.out.printf("%dms%n", endTime - startTime);*/
 
         // StringBuffer速度测试
-        startTime = System.currentTimeMillis();
+        /*startTime = System.currentTimeMillis();
         for (int i = 0; i < 1000000; i++) {
             stringBuffer.append(getRandomString());
         }
         endTime = System.currentTimeMillis();
-        System.out.printf("%dms%n", endTime - startTime);
+        System.out.printf("%dms%n", endTime - startTime);*/
 
-        try {
+        /*try {
             startTime = System.currentTimeMillis();
             stringBuffer.append(getRandomString());
             for (int i = 0; i < Integer.MAX_VALUE; i++) {
@@ -143,7 +144,7 @@ public class TestString {
             System.out.printf("%dms%n", endTime - startTime);
         }catch (Error error){
             error.printStackTrace();
-        }
+        }*/
 
         // StringBuilder速度测试
         /*startTime = System.currentTimeMillis();
@@ -155,7 +156,39 @@ public class TestString {
 
         System.out.println(s3);
         System.out.println(TestString.stringReverse(s3));
+
+        String s9="123";
+        test1(s9);
+        System.out.println(s9);
+
+        int[] aa=new int[]{1,2,3};
+        test2(aa);
+        System.out.println(Arrays.toString(aa));
+
+        Hero hero=new Hero("QQ");
+        test3(hero);
+        System.out.println(hero);
+
+        Hero[] heroes=new Hero[1];
+        test4(heroes);
+        System.out.println(heroes.length);
     }
+
+    public static void test1(String str){
+        str="25";
+    }
+    public static void test2(int[] a){
+        a=new int[]{2,5};
+//        a[0]=5;
+    }
+    public static void test3(Hero hero){
+        hero=new Hero();
+    }
+
+    public static void test4(Hero[] heroes){
+        heroes=new Hero[4];
+    }
+
 
     public static String stringReverse(String string) {
         char[] charArray = string.toCharArray();

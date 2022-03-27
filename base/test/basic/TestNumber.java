@@ -35,5 +35,8 @@ public class TestNumber {
         System.out.format(Locale.US,"%,.4f%n",Math.PI*10000);
         System.out.format(Locale.UK,"%,.4f%n",Math.PI*10000);
         System.out.format(Locale.CHINA,"%,.4f%n",Math.PI*10000);
+
+        int i1=2;
+        System.out.println((++i1 * 3));
     }
 }

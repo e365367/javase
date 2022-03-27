@@ -1,4 +1,4 @@
-package test.basic.character.basic;
+package character.basic;
 
 public class ADAPHero extends Hero implements AD, AP {
     @Override

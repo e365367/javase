@@ -1,11 +1,9 @@
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Template;
 import property.Season;
 
+class he{
 
-public class HelloWorld {
-    class he{
-
-    }
+}
+public class HelloWorld_decoded {
     public static void main(String[] args) {
         Season season = Season.AUTUMN;
         switch (season) {
@@ -44,6 +42,5 @@ public class HelloWorld {
         byte b=16;
         Byte bb=14;
         int i4=bb;
-
     }
 }

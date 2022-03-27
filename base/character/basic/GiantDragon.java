@@ -1,4 +1,4 @@
-package test.basic.character.basic;
+package character.basic;
 
 public class GiantDragon {
     // 私有化构造方法，使得该类无法在外部通过new 进行实例化
